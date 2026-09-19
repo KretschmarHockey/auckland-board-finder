@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Auckland Local Board finder for a Jet Lag Hide + Seek transit game." />
+  <title>Auckland Local Board Finder</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <p class="kicker">JET LAG • AUCKLAND</p>
+        <h1>Local Board Finder</h1>
+        <p class="hero-copy">Find the Auckland Local Board for your current location or any of the 74 game stations.</p>
+      </div>
+      <div class="status-cluster">
+        <span id="offlineBadge" class="connection-badge" data-online="true">Online</span>
+        <button id="installButton" class="text-button" type="button" hidden>Install</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="primary-card" aria-labelledby="where-heading">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">CURRENT POSITION</p>
+            <h2 id="where-heading">Which Local Board am I in?</h2>
+          </div>
+        </div>
+        <button id="gpsButton" class="primary-button" type="button">
+          <span aria-hidden="true">◎</span>
+          Use my current location
+        </button>
+        <button id="retryButton" class="secondary-button" type="button" hidden>Try location again</button>
+        <p id="locationStatus" class="status-message" data-kind="neutral">Official Local Board boundaries are loading.</p>
+      </section>
+
+      <section id="resultCard" class="result-card" hidden aria-live="polite">
+        <p id="resultEyebrow" class="section-kicker">LOCAL BOARD</p>
+        <h2 id="boardName">—</h2>
+        <p id="resultDetail" class="result-detail"></p>
+
+        <dl class="result-grid">
+          <div id="accuracyRow" hidden>
+            <dt>GPS accuracy</dt>
+            <dd id="accuracyValue">—</dd>
+          </div>
+          <div id="boundaryRow" hidden>
+            <dt>Nearest board boundary</dt>
+            <dd id="boundaryValue">—</dd>
+          </div>
+          <div id="nearestStationRow" hidden>
+            <dt>Nearest game station</dt>
+            <dd id="nearestStationValue">—</dd>
+          </div>
+        </dl>
+
+        <div id="warningBox" class="warning-box" hidden>
+          <strong>Boundary check</strong>
+          <p id="warningText"></p>
+        </div>
+
+        <div class="action-row">
+          <button id="useNearestStationButton" class="secondary-button" type="button" hidden>Use nearest station coordinate</button>
+          <button id="copyButton" class="secondary-button" type="button">Copy result</button>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="station-heading">
+        <p class="section-kicker">STATION LOOKUP</p>
+        <h2 id="station-heading">Search a game station</h2>
+        <p class="muted">Useful when GPS is poor, or as the tie-breaker when you're right on a Local Board boundary.</p>
+        <div class="search-wrap">
+          <label class="sr-only" for="stationSearch">Station name</label>
+          <input id="stationSearch" type="search" placeholder="e.g. Kingsland, Botany, Mātiatia" autocomplete="off" list="stationList" />
+          <datalist id="stationList"></datalist>
+          <div id="stationResults" class="station-results" hidden></div>
+        </div>
+      </section>
+
+      <section class="map-card" aria-labelledby="map-heading">
+        <div class="map-header">
+          <div>
+            <p class="section-kicker">BOUNDARY MAP</p>
+            <h2 id="mapTitle">Auckland game area</h2>
+            <p id="mapHint" class="muted">Tap a Local Board boundary or station dot to inspect it.</p>
+          </div>
+          <div class="map-controls">
+            <button id="showGameButton" class="mini-button" type="button">Game area</button>
+            <button id="focusButton" class="mini-button" type="button" disabled>Focus board</button>
+          </div>
+        </div>
+        <div class="map-frame">
+          <svg id="mapSvg" role="img" aria-label="Auckland Local Board boundary map" viewBox="0 0 1000 680"></svg>
+        </div>
+        <div class="legend" aria-label="Map legend">
+          <span><i class="legend-swatch boundary"></i>Local Board</span>
+          <span><i class="legend-swatch selected"></i>Selected board</span>
+          <span><i class="legend-dot station"></i>Game station</span>
+          <span><i class="legend-dot location"></i>Selected location</span>
+        </div>
+      </section>
+
+      <section class="card compact-card" aria-labelledby="rules-heading">
+        <p class="section-kicker">GAME RULE</p>
+        <h2 id="rules-heading">Suggested boundary tie-breaker</h2>
+        <p>If your GPS accuracy reaches a Local Board boundary, use the official coordinate of the game station you are physically at. The tool will flag those cases automatically.</p>
+        <p class="muted small">The app also applies a 25 m caution buffer because boundary source geometry and phone GPS both have positional uncertainty.</p>
+      </section>
+
+      <section class="card compact-card source-card" aria-labelledby="source-heading">
+        <p class="section-kicker">DATA</p>
+        <h2 id="source-heading">Official 2026 Local Board boundaries</h2>
+        <p id="sourceStatus">Loading official 2026 boundaries…</p>
+        <p class="muted small">Source: Stats NZ – Tatauranga Aotearoa, Territorial Authority Local Board 2026, definitive as at 1 January 2026. Geometry is simplified by about 5 m for fast phone loading.</p>
+        <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noopener noreferrer">View Stats NZ source</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for the Auckland Hide + Seek transit game. No location is sent to a game server: the board lookup is calculated on your device.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

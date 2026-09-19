@@ -1,0 +1,967 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6665478,
+          -36.6241859
+        ]
+      },
+      "properties": {
+        "name": "Hibiscus Coast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.712554,
+          -36.7222751
+        ]
+      },
+      "properties": {
+        "name": "Albany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7281375,
+          -36.7516877
+        ]
+      },
+      "properties": {
+        "name": "Constellation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7377702,
+          -36.7614631
+        ]
+      },
+      "properties": {
+        "name": "Sunnynook"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7510741,
+          -36.7843905
+        ]
+      },
+      "properties": {
+        "name": "Smales Farm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7609784,
+          -36.797021
+        ]
+      },
+      "properties": {
+        "name": "Akoranga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7542925,
+          -36.8466384
+        ]
+      },
+      "properties": {
+        "name": "Victoria Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7658207,
+          -36.8431481
+        ]
+      },
+      "properties": {
+        "name": "Lower Albert St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.762871,
+          -36.8509391
+        ]
+      },
+      "properties": {
+        "name": "Te Waihorotiu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7678124,
+          -36.854651
+        ]
+      },
+      "properties": {
+        "name": "Universities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7584248,
+          -36.8569529
+        ]
+      },
+      "properties": {
+        "name": "Karanga-a-Hape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6509992,
+          -36.857828
+        ]
+      },
+      "properties": {
+        "name": "Te Atatū"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6302215,
+          -36.8483937
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6118818,
+          -36.8148721
+        ]
+      },
+      "properties": {
+        "name": "Westgate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.87462763001935,
+          -36.99433368523706
+        ]
+      },
+      "properties": {
+        "name": "Manukau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8730416,
+          -36.9884955
+        ]
+      },
+      "properties": {
+        "name": "Lambie Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8561119,
+          -36.9898245
+        ]
+      },
+      "properties": {
+        "name": "Puhinui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7903363,
+          -37.0065512
+        ]
+      },
+      "properties": {
+        "name": "Airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.849004,
+          -36.8981045
+        ]
+      },
+      "properties": {
+        "name": "Panmure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.86572083552534,
+          -36.91149944348186
+        ]
+      },
+      "properties": {
+        "name": "Williams Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8695748089877,
+          -36.91249845525585
+        ]
+      },
+      "properties": {
+        "name": "Pakūranga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.91217728694278,
+          -36.9324251120135
+        ]
+      },
+      "properties": {
+        "name": "Botany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.57609,
+          -36.86593
+        ]
+      },
+      "properties": {
+        "name": "Swanson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6041933,
+          -36.8679689
+        ]
+      },
+      "properties": {
+        "name": "Rānui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6213146,
+          -36.875337
+        ]
+      },
+      "properties": {
+        "name": "Sturges Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6311107,
+          -36.8806243
+        ]
+      },
+      "properties": {
+        "name": "Henderson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6315103,
+          -36.8993464
+        ]
+      },
+      "properties": {
+        "name": "Sunnyvale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6526861,
+          -36.9105494
+        ]
+      },
+      "properties": {
+        "name": "Glen Eden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6674622,
+          -36.9107959
+        ]
+      },
+      "properties": {
+        "name": "Fruitvale Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6998054,
+          -36.8977539
+        ]
+      },
+      "properties": {
+        "name": "Avondale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7140627,
+          -36.8856241
+        ]
+      },
+      "properties": {
+        "name": "Mt Albert"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.720599,
+          -36.8776531
+        ]
+      },
+      "properties": {
+        "name": "Baldwin Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7349541,
+          -36.8747492
+        ]
+      },
+      "properties": {
+        "name": "Morningside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7448998,
+          -36.8720589
+        ]
+      },
+      "properties": {
+        "name": "Kingsland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.758523,
+          -36.8676592
+        ]
+      },
+      "properties": {
+        "name": "Maungawhau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.6842035957681,
+          -36.90926020952991
+        ]
+      },
+      "properties": {
+        "name": "New Lynn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7681579,
+          -36.8442259
+        ]
+      },
+      "properties": {
+        "name": "Waitematā"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8104379,
+          -36.8625749
+        ]
+      },
+      "properties": {
+        "name": "Ōrākei"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8208619,
+          -36.866627
+        ]
+      },
+      "properties": {
+        "name": "Meadowbank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.85412094543574,
+          -36.87884021959866
+        ]
+      },
+      "properties": {
+        "name": "Glen Innes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8425282,
+          -36.914343
+        ]
+      },
+      "properties": {
+        "name": "Sylvia Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8338641,
+          -36.9473681
+        ]
+      },
+      "properties": {
+        "name": "Ōtāhuhu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8389812,
+          -36.9627035
+        ]
+      },
+      "properties": {
+        "name": "Middlemore"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.850523,
+          -36.978996
+        ]
+      },
+      "properties": {
+        "name": "Papatoetoe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7707783,
+          -36.8655825
+        ]
+      },
+      "properties": {
+        "name": "Grafton"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7781708,
+          -36.8702616
+        ]
+      },
+      "properties": {
+        "name": "Newmarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7775106105592,
+          -36.85493546268916
+        ]
+      },
+      "properties": {
+        "name": "Parnell"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.785432654528,
+          -36.88126731091452
+        ]
+      },
+      "properties": {
+        "name": "Remuera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.79792671965987,
+          -36.889931502480614
+        ]
+      },
+      "properties": {
+        "name": "Greenlane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8075518236995,
+          -36.897225481038795
+        ]
+      },
+      "properties": {
+        "name": "Ellerslie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8150566,
+          -36.9097817
+        ]
+      },
+      "properties": {
+        "name": "Penrose"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8014857336022,
+          -36.920151659216536
+        ]
+      },
+      "properties": {
+        "name": "Te Pāpapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.785616,
+          -36.9253586
+        ]
+      },
+      "properties": {
+        "name": "Onehunga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8756114,
+          -37.0135999
+        ]
+      },
+      "properties": {
+        "name": "Homai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8951013,
+          -37.0238998
+        ]
+      },
+      "properties": {
+        "name": "Manurewa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9061091,
+          -37.0311806
+        ]
+      },
+      "properties": {
+        "name": "Te Māhia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9202624,
+          -37.0404692
+        ]
+      },
+      "properties": {
+        "name": "Takaanini"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9463235,
+          -37.0651353
+        ]
+      },
+      "properties": {
+        "name": "Papakura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.95236444180028,
+          -37.10422311157645
+        ]
+      },
+      "properties": {
+        "name": "Drury"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.89794344221826,
+          -37.1562308312992
+        ]
+      },
+      "properties": {
+        "name": "Paerātā"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9096290249592,
+          -37.203318873197205
+        ]
+      },
+      "properties": {
+        "name": "Pukekohe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7674286,
+          -36.8425192
+        ]
+      },
+      "properties": {
+        "name": "Downtown Ferry Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.64550561755567,
+          -36.81088367315789
+        ]
+      },
+      "properties": {
+        "name": "West Harbour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.67221823611214,
+          -36.78759628899175
+        ]
+      },
+      "properties": {
+        "name": "Hobsonville Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.67833856607774,
+          -36.78985060210754
+        ]
+      },
+      "properties": {
+        "name": "Beach Haven"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73372107984193,
+          -36.82288841091714
+        ]
+      },
+      "properties": {
+        "name": "Birkenhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7465798,
+          -36.8266949
+        ]
+      },
+      "properties": {
+        "name": "Te Onewa Northcote Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76661040222518,
+          -36.82224686176573
+        ]
+      },
+      "properties": {
+        "name": "Bayswater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7957996285582,
+          -36.83265062133436
+        ]
+      },
+      "properties": {
+        "name": "Devonport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7879474,
+          -36.6243628
+        ]
+      },
+      "properties": {
+        "name": "Gulf Harbour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.95237573780543,
+          -36.7262713130061
+        ]
+      },
+      "properties": {
+        "name": "Rākino Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9924597,
+          -36.7803321
+        ]
+      },
+      "properties": {
+        "name": "Mātiatia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9896987,
+          -36.8899136
+        ]
+      },
+      "properties": {
+        "name": "Pine Harbour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8951913,
+          -36.8800403
+        ]
+      },
+      "properties": {
+        "name": "Half Moon Bay"
+      }
+    }
+  ]
+}
